@@ -11,7 +11,11 @@ void setup() {
   imageMode(CENTER);
   
   background(255);
+  
+  //Change this to change what tree you get. There is "cool", "spruce", and "thicccc". If you would like a custom tree, comment out line 16 by using "//" and uncomment line 18 by deleating them
   drawTree("thicccc");
+  //Change the value of the next line to change the tree. The 1 needs to stay a 1.
+  //drawBranch(startingX, startingY, endingXForTheTrunk, endingXForTheTrunk, size, 1, leftMaxAngleChange, rightMaxAngleChange, startingAngle, endingLayer, thickness);
 }
 
 void drawTree(String mode) {
